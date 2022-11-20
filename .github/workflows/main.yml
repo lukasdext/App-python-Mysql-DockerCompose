@@ -34,7 +34,7 @@ jobs:
       environment: 
         name: dev
         url: google.com
-      needs: deploy-dev
+      needs: deploy-hmg
       steps:
         - name: run a one-line script
           run: echo Deploy, PRD
